@@ -1,0 +1,232 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding-top: 31px;
+}
+.header__logo{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 70px;
+}
+.header__logo-img{
+    width: 177px;
+    height: 42px;
+}
+.nav{
+    width: 100%;
+    max-width: 343px;
+    margin-right: 102px;
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 196.19%;
+    color: #241400;
+}
+.header__form{
+    width: 478px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form{
+    width: 100%;
+    max-width: 200px;
+    position: relative;
+}
+.form::before{
+    width: 14px;
+    height: 14px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background-image: url("../../Img/simple-line-icons_magnifier.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.form__input{
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 196.19%;
+    color: rgba(0, 0, 0, 0.35);
+    border: none;
+    border-bottom: 1px solid rgba(105, 103, 100, 0.59);
+    padding-left: 25px;
+}
+
+.shop{
+    width: 100%;
+    max-width: 176px;
+    display: flex;
+}
+
+.shop__heart{
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+}
+.shop__cart{
+    width: 38px;
+    height: 37px;
+    margin-right: 9px;
+}
+.shop__select{
+    border: none;
+
+}
+.header__show{
+    display: none;
+}
+.header__tel{
+    display: none;
+}
+
+.nav-list-box{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(36, 20, 0, 0.9);
+    z-index: 1;
+}
+.show-list{
+    flex-direction: column;
+ 
+}
+.show-list-box{
+    display: block;
+}
+.header__reset{
+    position: absolute;
+    top: 43px;
+    right: 15px;
+
+}
+.show-form__input{
+    display: block;
+    width: 100%;
+    max-width: 290px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 196.19%;
+    color: rgba(255, 255, 255, 0.39);
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 79px;
+    border: none;
+    outline: none;
+
+    border-bottom: 1px solid rgba(105, 103, 100, 0.59);
+}
+.show-list{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 20px;
+    margin-right: 12px;
+    padding: 0;
+    list-style-type: none;
+}
+.show-item + .show-item{
+    margin-top: 20px;
+}
+.show-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 196.19%;
+    text-align: right;
+    color: #F2F2F2;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__logo{
+        margin-right: 40px;
+    }
+    .header__logo-img{
+        object-fit: contain;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .header__logo{
+        margin-right: 117px;
+    }
+
+    .header__logo-img{
+        object-fit: contain;
+    }
+    .nav{
+        display: none;
+    }
+    .header__form{
+        // display: inline-block;
+        text-decoration: none;
+        margin-right: 15px;
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 196.19%;
+        color: #241400;
+    }
+    .header__show{
+        display: block;
+        margin-left: 42px;
+    }
+
+
+}
+@media screen and (max-width: 620px){
+    .header__logo{
+        margin-right: 27px;
+    }
+}
+@media screen and (max-width: 425px){
+
+    .header{
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .header__form{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 478px;
+        position: absolute;
+        top: 80px;
+        left: 5px;
+        right: 20px;
+        margin: 0 auto;
+    }
+    .form{
+        display: none;
+    }
+    .header__tel{
+        display: block;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 196.19%;
+        color: #241400;
+    }
+
+
+}

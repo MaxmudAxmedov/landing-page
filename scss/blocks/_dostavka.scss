@@ -1,0 +1,44 @@
+.dostavka{
+    margin-bottom: 77px;
+}
+.dostavka__title{
+    margin: 0;
+    margin-bottom: 56px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 196.19%;
+    color: #241400;
+}
+.dostavka__info{
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 196.19%;
+    text-align: center;
+    color: #241400;
+}
+.dostavka__text{
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 196.19%;
+    text-align: center;
+    color: #241400;
+}
+@media screen and (max-width: 768px){
+    .dostavka__title{
+        margin-bottom: 50px;
+
+    }
+}
+@media screen and (max-width: 425px){
+    .dostavka{
+        margin-bottom: 45px;
+    }
+    .dostavka__title{
+        margin-bottom: 0px;
+
+    }
+}

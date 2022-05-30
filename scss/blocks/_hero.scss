@@ -1,0 +1,168 @@
+.section-hero{
+    background-image: url("../../Img/Фон.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 380px) calc(50% + 30px);
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 145px;
+    margin-bottom: 75px;
+}
+.hero__content{
+    width: 100%;
+    max-width: 467px;
+}
+
+.hero__title{
+    margin: 0;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 196.19%;
+    color: #241400;
+}
+.hero__text{
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 196.19%;
+    color: #241400;
+}
+.hero__link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 11px 24px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 196.19%;
+    color: #FFFFFF;
+    background-color: #E16A00;
+}
+.hero__info{
+    width: 100%;
+    max-width: 562px;
+}
+.info__img-mobile{
+    display: none;
+}
+.info__content{
+    width: 265px;
+    margin-left: 245px;
+}
+.info__title{
+    margin: 0;
+    margin-bottom: 9px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 196.19%;
+    color: #FFFFFF;
+}
+.info__text{
+    margin: 0;
+    margin-bottom: 9px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 96.69%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.box{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.box__text{
+    margin: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 196.19%;
+    color: #FFFFFF;
+}
+.box__img{
+    width: 20px;
+    height: 17px;
+}
+@media screen and (max-width: 768px){
+    .section-hero{
+        background-position: calc(50% + 80px) calc(50% + 200px);
+    }
+    .hero{
+        flex-direction: column;
+        padding-top: 92px;
+    }
+    .hero__content{
+        width: 100%;
+        max-width: 738px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 93px;
+    }
+    .hero__text{
+        margin: 0;
+        margin-bottom: 16px;
+    }
+    .hero__info{
+        margin-top: 63px;
+    }
+    .info__img{
+        width: 600.79px;
+        height: 316px;
+    }
+
+}
+@media screen and (max-width: 575px){
+    .section-hero{
+        background-image: url("../../Img/Фон-mobil.png");
+        background-position: calc(50%) calc(50% + 200px);
+    }
+    .hero{
+        flex-direction: column;
+        padding-top: 45px;
+    }
+    .info__img{
+        display: none;
+    }
+    .hero__content{
+        margin-bottom: 45px;
+    }
+    .info__img-mobile{
+        display: block;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    .hero__info{
+        margin-top: 0;
+    }
+    .info__content{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 197px;
+
+    }
+    .info__title{
+        font-size: 10px;
+        line-height: 196.19%;
+        margin: 0;
+    }
+    .info__text{
+        font-size: 8px;
+        line-height: 96.69%;
+        margin-bottom: 0;
+    }
+    .box{
+        margin: 0 auto;
+    }
+    .box__text{
+        font-size: 10px;
+        line-height: 196.19%;
+    }
+    .box__img{
+        width: 12px;
+        height: 12px;
+    }
+}

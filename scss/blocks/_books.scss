@@ -1,0 +1,155 @@
+
+.books{
+
+    margin-bottom: 75px;
+
+}
+.books__hero{
+    width: 100%;
+    max-width: 1041px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.books__title{
+    margin: 0;
+    margin-right: 15px;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 196.19%;
+    color: #241400;
+}
+
+.Sale{
+    margin: 0 auto;
+}
+.books__list{
+    width: 100%;
+    max-width: 641px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.books__link{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 196.19%;
+    color: #241400;
+    margin: 0 5px;
+}
+
+.card__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 66px;
+    padding: 0;
+}
+.card__item{
+    width: 184px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    padding: 25px 22px;
+    margin-bottom: 10px;
+}
+.card__img{
+    margin-bottom: 11px;
+}
+.card__price{
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 196.19%;
+    color: #241400;
+}
+.card__title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 196.19%;
+    color: #241400;
+}
+.card__text{
+    margin: 0;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 196.19%;
+    color: #241400;
+}
+.card__shop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__link{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2px;
+    padding: 10px 11px;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 196.19%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #E16A00;
+    box-shadow: 0px 3px 8px rgba(225, 106, 0, 0.19);
+    border-radius: 3px;
+}
+.card__img-hearts{
+    width: 29px;
+    height: 29px;
+}
+.card__progress{
+    width: 100%;
+    max-width: 370px;
+    height: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #D7D7D7;
+}
+.sale__progress{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.card__progress-pratsent{
+    display: block;
+    width: 47px;
+    height: 12px;
+    background-color: #4D2900;
+}
+.sale-pratsent{
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .books__hero{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 425px){
+    .books__title{
+        text-align: center;
+    }
+    .books__list{
+        flex-direction: column;
+    }
+    .card__list{
+        justify-content: center;
+    }
+
+}
